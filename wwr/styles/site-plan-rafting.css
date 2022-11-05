@@ -13,13 +13,13 @@ Fonts are separated by a & */
   --paragraph-font: "Dosis", "Helvetica", sans-serif;
 
   --headline-color-on-white: #4a6d7c; /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
+  --headline-color-on-color: #ffffff; /* headlines on a colored background */
   --paragraph-color-on-white: #4a6d7c; /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */
   --paragraph-background-color: #4a6d7c;
   --nav-link-color: #4a6d7c;
-  --nav-background-color: #f6ae2d;
-  --nav-hover-link-color: white;
+  --nav-background-color: #537a5a;
+  --nav-hover-link-color: #f6ae2d;
   --nav-hover-background-color: #4a6d7c;
 }
 
