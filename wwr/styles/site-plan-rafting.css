@@ -1,8 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Noto+Sans&display=swap");
 
 :root {
   --primary-color: #a8e0ff;
@@ -10,9 +9,8 @@ Fonts are separated by a & */
   --accent1-color: #537a5a;
   --accent2-color: #f6ae2d;
 
-  /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Noto Sans", "Helvetica", sans-serif;
+  --paragraph-font: "Dosis", "Helvetica", sans-serif;
 
   --headline-color-on-white: #4a6d7c; /* headlines on a white background */
   --headline-color-on-color: white; /* headlines on a colored background */
