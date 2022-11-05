@@ -100,7 +100,7 @@ p.colored {
 }
 nav {
   font-family: var(--paragraph-font);
-  /* I know it said not to edit here - but I didn't like the font of the Navigation */
+  /* I know it said not to edit here - but I didn't like the font of the Navigation - Added line 102 */
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
