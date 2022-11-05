@@ -17,13 +17,13 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #4a6d7c; /* paragraph text on a white background */
   --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */
   --paragraph-background-color: #4a6d7c;
-  --nav-link-color: #4a6d7c;
-  --nav-background-color: #537a5a;
+  --nav-link-color: #ffffff;
+  --nav-background-color: #4a6d7c;
   --nav-hover-link-color: #f6ae2d;
-  --nav-hover-background-color: #4a6d7c;
+  --nav-hover-background-color: #537a5a;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+/*  Look around below...but DON'T CHANGE ANYTHING!  - I changed something - I didn't like the font for the Navigation so I added the paragraph font there.*/
 
 body {
   max-width: 960px;
@@ -99,6 +99,8 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
+  font-family: var(--paragraph-font);
+  /* I know it said not to edit here - but I didn't like the font of the Navigation */
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
