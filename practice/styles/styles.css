@@ -1,15 +1,17 @@
 body {
   text-align: center;
+  margin: 0;
 }
 
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 25px;
 }
 a {
   color: white;
   margin: 40px;
   font-size: 1.5em;
+  padding: 25px;
 }
 a:hover {
   background-color: white;
@@ -17,6 +19,7 @@ a:hover {
 }
 h1 {
   color: steelblue;
+  margin: 50px 0;
 }
 img {
   width: 80%;
@@ -38,6 +41,9 @@ p {
 footer {
   background-color: steelblue;
   color: white;
+}
+footer p {
+  padding: 5px;
 }
 /*
 * {
