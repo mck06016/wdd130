@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&family=Noto+Sans&display=swap");
 
-:root {
-  --heading-font: "Noto Sans", "Helvetica", sans-serif;
-  --paragraph-font: "Dosis", "Helvetica", sans-serif;
-}
 #content {
   max-width: 1600px;
   margin: 0 auto;
 }
 nav {
-  font-family: var(--heading-font);
+  font-family: "Noto Sans", "Helvetica", sans-serif;
 }
 nav a {
   text-align: center;
@@ -36,7 +32,7 @@ h2 {
 }
 #hero-message {
   font-size: 2em;
-  font-family: var(--heading-font);
+  font-family: "Noto Sans", "Helvetica", sans-serif;
   text-align: center;
 }
 .home-title h1 {
@@ -45,15 +41,15 @@ h2 {
 #hero-message h4 {
   text-align: center;
   font-size: 1em;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
 }
 .button-box {
   text-align: center;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
 }
 main {
   text-align: center;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
 }
 main section img {
   box-sizing: border-box;
@@ -65,7 +61,7 @@ main section img {
 .book {
   background-color: #a8e0ff;
   color: #000000;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   font-size: 18px;
   text-decoration: none;
   padding: 15px 30px;
@@ -75,7 +71,7 @@ main section img {
 .join {
   background-color: #a8e0ff;
   color: #000000;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   font-size: 18px;
   text-decoration: none;
   padding: 15px 30px;
@@ -84,12 +80,12 @@ main section img {
 }
 .book:hover {
   background-color: #a8e0ff;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   color: #000000;
 }
 .join:hover {
   background-color: #a8e0ff;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   color: #4a6d7c;
 }
 .msg {
@@ -99,11 +95,11 @@ main section img {
 }
 .msg h2 {
   color: #000000;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
 }
 .msg p {
   color: #000000;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   font-size: 0.8em;
   padding-bottom: 15px;
 }
@@ -114,7 +110,7 @@ footer {
 }
 footer a {
   color: #000000;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   text-decoration: none;
   padding: 25px 50px;
 }
@@ -123,10 +119,10 @@ footer a:hover {
 }
 footer p {
   font-size: 1.2em;
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
 }
 footer p a:hover {
-  font-family: var(--paragraph-font);
+  font-family: "Dosis", "Helvetica", sans-serif;
   text-decoration: underline;
 }
 footer .social img {
@@ -134,7 +130,7 @@ footer .social img {
 }
 .home-title h4 {
   color: #4a6d7c;
-  font-family: var(--heading-font);
+  font-family: "Noto Sans", "Helvetica", sans-serif;
 }
 .logo {
   width: 80px;
