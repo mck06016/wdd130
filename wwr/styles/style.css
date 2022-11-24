@@ -89,8 +89,6 @@ body {
 main {
   text-align: center;
   font-family: "Dosis", "Helvetica", sans-serif;
-}
-main .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -203,7 +201,7 @@ footer a:hover {
   color: #000000;
 }
 footer p {
-  font-size: 0.5em;
+  font-size: 1em;
   font-family: "Dosis", "Helvetica", sans-serif;
 }
 footer p a:hover {
