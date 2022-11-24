@@ -84,7 +84,7 @@ body {
   font-family: "Dosis", "Helvetica", sans-serif;
   text-shadow: -0px -0px 0 #000, 0px -0px 0 #000, -0px 0px 0 #000,
     0px 0px 0 #000; /*Added to remove the Shadow from this element.*/
-  margin-top: -30px;
+  margin-top: 400px;
 }
 main {
   text-align: center;
@@ -159,9 +159,6 @@ main section img {
 }
 h2 {
   margin: 0;
-}
-.button-box {
-  margin-top: 400px;
 }
 .book {
   background-color: #a8e0ff;
