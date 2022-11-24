@@ -98,6 +98,8 @@ main section img {
 .card-img {
   border: 10px solid #4a6d7c;
   border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #537a5a;
 }
 .card-img,
 .mountains {
