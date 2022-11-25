@@ -1,5 +1,4 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
+/* if you are using any Google fonts change the font names below to your fonts. Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
@@ -26,7 +25,7 @@ Fonts are separated by a | */
   --nav-hover-background-color: #176087;
 }
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+/*  Look around below...but DON'T CHANGE ANYTHING! - I made some changes :( */
 
 body {
   max-width: 1200px;
@@ -138,13 +137,13 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(6, 15%);
+  grid-template-columns: repeat(8, 12.5%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas:
-    ". . home home . ."
-    ". . . top . ."
-    ". left left right right ."
-    "page2 page2 . . page3 page3";
+    ". . . home home . . ."
+    ". . . . top . . ."
+    ". left left centre centre right right ."
+    "page2 page2 . page3 page3 . page4 page4";
 }
 .sitemap > div {
   text-align: center;
@@ -159,12 +158,17 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+
 .sm-page3 {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
 }
-
+.sm-page4 {
+  grid-area: page4;
+  background-color: #ccc;
+  line-height: 3em;
+}
 .top {
   grid-area: top;
   border-left: 1px solid;
