@@ -71,10 +71,9 @@ p {
   color: var(--paragraph-color-on-white);
   /*padding: 1em;*/
 }
-ul {
+li {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
 }
 .colors {
   width: 100%;
