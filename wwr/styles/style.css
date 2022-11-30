@@ -92,6 +92,16 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#faq-title {
+  font-size: 2em;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
+  text-align: center;
+  color: #4a6d7c;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; /*Googled to make text stand out more*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 main section img {
   box-sizing: border-box;
 }
@@ -185,7 +195,6 @@ h2 {
   margin-top: 50px;
   border-radius: 5px;
 }
-
 .join:hover {
   background-color: #a8e0ff;
   font-family: "Dosis", "Helvetica", sans-serif;
