@@ -110,8 +110,9 @@ p.colored {
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
 }
 nav {
   list-style-type: none;
