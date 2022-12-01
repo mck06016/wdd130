@@ -136,13 +136,13 @@ nav a:hover {
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(8, 12.5%);
+  grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas:
-    ". . . home home . . ."
-    ". . . . top . . ."
-    ". left left centre centre right right ."
-    "page2 page2 . page3 page3 . page4 page4";
+    ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
 }
 .sitemap > div {
   text-align: center;
