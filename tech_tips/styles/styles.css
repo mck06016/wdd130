@@ -125,7 +125,9 @@ h2 {
 }
 dt {
   padding: 20px;
-  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 #img-ts-2 {
