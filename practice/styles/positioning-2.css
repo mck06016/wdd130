@@ -1,0 +1,41 @@
+section {
+  width: 50%;
+  border: 1px solid;
+}
+.block2 {
+  margin: 0 auto; /*Center*/
+}
+.block3 {
+  margin-left: auto;
+}
+.block4 {
+  width: 60%; /*Block 4 appears wider then the other blocks in the diagram (comparied to 2)*/
+  margin: 0 auto; /*Center*/
+  
+}
+p:nth-of-type(2) {
+  text-align: center;
+}
+p:nth-of-type(3) {
+  text-align: right;
+}
+.block4 p:nth-of-type(1) {
+  text-align: right;
+}
+.block4 p:nth-of-type(3) {
+  text-align: left;
+}
+/*  The alignment of the poem can be described like this:
+
+Block 1 should be left-aligned
+Block 2 should be center-aligned
+Block 3 should be right-aligned
+Block 4 should be center-aligned
+ The first paragraph in blocks 1,2,3 should be left-aligned.
+ The second paragraph in blocks 1,2,3 should be center-aligned.
+ The third paragraph in blocks 1,2,3 should be right-aligned.
+The first paragraph in block 4 should be right-aligned.
+The second paragraph in block 4 should be center-aligned.
+ The third and fourth paragraphs in block 4 should be left -aligned.
+ */
+ /*Also noted that Block 4 is slightliy wider then the others so added a 
