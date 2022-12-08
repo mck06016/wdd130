@@ -45,6 +45,7 @@ nav a:hover {
   font-size: 1.5em;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: justify;
 }
 /* Home*/
 #home {
@@ -81,11 +82,126 @@ nav a:hover {
 }
 /* End Home */
 /* Troubleshooting */
+h2 {
+  text-align: center;
+}
+#troubleshooting {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+}
+#h3-1 {
+  grid-column: 1/3;
+}
+#p-ts-1 {
+  grid-column: 1/2;
+  margin: 50px;
+}
+#img-ts-1 {
+  grid-column: 1/2;
+  border: 10px solid #d5d5d5;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #252525;
+}
+#p-ts-2 {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  margin: 50px;
+}
 
+#h3-2 {
+  grid-column: 1/3;
+}
+#p-ts-3 {
+  grid-column: 1/2;
+  margin: 50px;
+}
+#p-ts-4 {
+  grid-column: 2/3;
+  margin: 50px;
+}
+#img-ts-2 {
+  grid-column: 1/3;
+  border: 10px solid #d5d5d5;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #252525;
+}
 /* End Troubleshooting */
 
 /* Security */
-
+#security {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+}
+#h-s-1 {
+  grid-column: 1/2;
+}
+#p-s-1 {
+  grid-column: 1/4;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+#p-s-2 {
+  grid-column: 1/4;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#p-s-3 {
+  grid-column: 1/2;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#p-s-4 {
+  grid-column: 2/3;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+#img-s-1 {
+  grid-column: 3/4;
+  width: 98%;
+  border: 10px solid #d5d5d5;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #252525;
+}
+#h-s-2 {
+  grid-column: 1/2;
+}
+#p-s-5 {
+  grid-column: 1/4;
+  margin: 10px 10px;
+}
+#p-s-6 {
+  grid-column: 1/4;
+  margin: 10px 10px;
+  padding-left: 20px;
+}
+#img-s-2 {
+  grid-column: 1/2;
+  width: 98%;
+  background-color: #ffffff;
+  border: 10px solid #d5d5d5;
+  border-radius: 5px;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #252525;
+}
+#p-s-7 {
+  grid-column: 2/4;
+  margin: 10px 30px;
+}
 /* End Security */
 
 /* End Body */
@@ -109,7 +225,7 @@ footer a:hover {
   color: #176087;
 }
 footer p {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: "Open Sans", sans-serif;
 }
 footer p a:hover {
@@ -123,7 +239,7 @@ footer img {
   align-content: center;
 }
 #foot-caid {
-  grid-column: 1/2;
+  grid-column: 1/6;
 }
 #foot-face {
   grid-column: 6/7;
@@ -133,5 +249,30 @@ footer img {
   grid-row: 2/3;
   font-size: 0.8em;
   text-align: center;
+}
+/* Icon Bar */
+.icon-bar {
+  grid-column: 2/6;
+  width: 100%; /* Full-width */
+  background-color: #000000; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (4 icons with 25% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: rgb(109, 107, 107); /* Add a hover color */
+}
+
+.active {
+  background-color: #176087; /* Add an active/current color */
 }
 /* End Footer */

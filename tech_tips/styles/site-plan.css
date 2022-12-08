@@ -185,3 +185,74 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 25px 50px;
+}
+footer a:hover {
+  color: #176087;
+}
+footer p {
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+}
+footer p a:hover {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+}
+footer img {
+  padding: 15px;
+  width: 100px;
+  align-items: center;
+  align-content: center;
+}
+#foot-caid {
+  grid-column: 1/6;
+}
+#foot-face {
+  grid-column: 6/7;
+}
+#copy {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  font-size: 0.8em;
+  text-align: center;
+}
+/* Icon Bar */
+.icon-bar {
+  grid-column: 2/6;
+  width: 100%; /* Full-width */
+  background-color: #000000; /* Dark-grey background */
+  overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+  float: left; /* Float links side by side */
+  text-align: center; /* Center-align text */
+  width: 25%; /* Equal width (4 icons with 25% width each = 100%) */
+  padding: 12px 0; /* Some top and bottom padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: rgb(109, 107, 107); /* Add a hover color */
+}
+
+.active {
+  background-color: #176087; /* Add an active/current color */
+}
+/* End Footer */
