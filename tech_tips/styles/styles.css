@@ -263,7 +263,7 @@ footer img {
 .icon-bar {
   grid-column: 2/6;
   width: 100%; /* Full-width */
-  background-color: #000000; /* Dark-grey background */
+  background-color: #000000; /* Black background */
   overflow: auto; /* Overflow due to float */
 }
 
